@@ -1,0 +1,35 @@
+[general]
+name=IGAC Cartografía Básica 1:25.000
+qgisMinimumVersion=3.16
+qgisMaximumVersion=3.99
+description=Configura automáticamente la cartografía básica digital IGAC 1:25.000 para cualquier zona de estudio en Colombia. Procesa planchas en formato SHP, GDB o MDB, aplica simbología oficial del catálogo de objetos IGAC (Resoluciones 471 y 529 de 2020), etiquetado tipográfico diferenciado por jerarquía, reproyección a EPSG:9377 (CTM12) y exportación a ArcGIS Pro (.aprx).
+about=Este plugin automatiza la configuración de cartografía básica digital IGAC 1:25.000 para municipios, cuencas hidrográficas, áreas protegidas o cualquier zona de estudio en Colombia.
+
+Características principales:
+- Soporte para SHP, GDB (File Geodatabase) y MDB (Personal Geodatabase)
+- Simbología oficial verificada del catálogo IGAC (Resoluciones 471 y 529 de 2020)
+- Detección inteligente de campos — compatible con todas las versiones del catálogo
+- Capas base: Curvas de Nivel, Drenaje Sencillo, Drenaje Doble, Vías, Construcciones, Orografía, Administrativo
+- Capas opcionales: Laguna, Embalse, Ciénaga, Jagüey, Pantano, Humedal, Manglar, Morichal, Isla, Manantial, Madrevieja, Línea de Mar
+- Reproyección automática a EPSG:9377 (MAGNA-SIRGAS / Origen Nacional CTM12)
+- Exportación a ArcGIS Pro (.aprx)
+- Interfaz gráfica intuitiva — sin necesidad de editar código
+
+version=1.0.0
+author=Diego Andrés Muñoz Guerrero
+email=dmunoz@udenar.edu.co
+homepage=https://www.udenar.edu.co
+repository=https://github.com/damuñoz/igac-cartografia-basica
+tracker=https://github.com/damuñoz/igac-cartografia-basica/issues
+icon=icon.png
+tags=colombia,igac,cartografia,simbologia,ctm12,epsg9377,curvas nivel,drenaje,vias,construcciones,magna sirgas
+category=Vector
+experimental=False
+deprecated=False
+hasProcessingProvider=False
+changelog=
+    1.0.0 - Versión inicial
+        - Soporte SHP, GDB, MDB
+        - Simbología completa catálogo IGAC 2020
+        - Capas base y opcionales de Superficies de Agua
+        - Exportación ArcGIS Pro 3.4.x
