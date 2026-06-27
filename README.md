@@ -5,6 +5,13 @@
 ![Licencia](https://img.shields.io/badge/Licencia-GPL%20v2-orange)
 ![Colombia](https://img.shields.io/badge/Pa%C3%ADs-Colombia-yellow)
 
+[
+
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20969292.svg)
+
+](https://doi.org/10.5281/zenodo.20969292)
+
+
 Plugin para QGIS que automatiza la configuración de cartografía básica digital IGAC 1:25.000 para cualquier zona de estudio en Colombia. Procesa planchas en formato SHP, GDB o MDB, aplica la simbología oficial del **Catálogo de Objetos IGAC (Resoluciones 471 y 529 de 2020)** y reproyecta automáticamente a **EPSG:9377 (MAGNA-SIRGAS / CTM12 Origen Nacional)**.
 
 ---
@@ -314,11 +321,9 @@ Ver el archivo [LICENSE](LICENSE) para más detalles.
 Si usas este plugin en investigaciones o trabajos académicos, por favor citar como:
 
 ```
-Muñoz Guerrero, D.A. (2026). IGAC Cartografía Básica 1:25.000 — Plugin para QGIS.
-Departamento de Recursos Naturales y Sistemas Agroforestales,
-Universidad de Nariño, Colombia.
-https://github.com/DiegoMG1/igac-cartografia-basica
-```
+Muñoz Guerrero, D.A. (2026). IGAC Cartografía Básica 
+1:25.000 — Plugin para QGIS. Zenodo. 
+https://doi.org/10.5281/zenodo.20969292
 
 ---
 
